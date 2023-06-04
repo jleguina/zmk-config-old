@@ -48,8 +48,8 @@
         COMBO(caps_word_right, &caps_word, 15 16, 60)
 
         // Base layer
-        COMBO(fix_short_u, &kp U, 4 5, 60)
-        COMBO(fix_short_k, &kp J, 14 15, 60)
+        COMBO(fix_short_u, <&kp Y>, 4 5, 60)
+        COMBO(fix_short_k, <&kp H>, 14 15, 60)
 
 
         // COMBO(colon, &kp COLON, 7 8, 60)
