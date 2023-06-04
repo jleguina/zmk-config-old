@@ -51,7 +51,6 @@
         COMBO(fix_short_u, &kp Y, 4 5 15, 200)
         COMBO(fix_short_k, &kp H, 14 5 15, 200)
 
-
         // COMBO(colon, &kp COLON, 7 8, 60)
         // COMBO(semicolon, &kp SEMI, 27 28, 60)
         // COMBO(slash, &kp FSLH, 1 2, 60)
