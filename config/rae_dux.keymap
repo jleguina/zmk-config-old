@@ -44,12 +44,13 @@
           ╰───────╮ 30  31  32 │ │ 33  34  35 ╭───────╯
                   ╰────────────╯ ╰────────────╯        */
 
-        COMBO(caps_word_left, &caps_word, 13 14, 60)
-        COMBO(caps_word_right, &caps_word, 15 16, 60)
+        // COMBO(caps_word_left, &caps_word, 13 14, 60)
+        // COMBO(caps_word_right, &caps_word, 15 16, 60)
 
         // Base layer
         COMBO(fix_short_u, &kp Y, 4 5 15, 200)
         COMBO(fix_short_k, &kp H, 14 5 15, 200)
+        COMBO(combo_test, &kp T, 10 1, 60)
 
 
         // COMBO(colon, &kp COLON, 7 8, 60)
