@@ -27,8 +27,8 @@
     combos {
         compatible = "zmk,combos";
 
-    // shortcut
-    #define COMBO(NAME, BINDINGS, KEYPOS, TIMEOUT) \
+        // shortcut
+        #define COMBO(NAME, BINDINGS, KEYPOS, TIMEOUT) \
           combo_##NAME { \
             timeout-ms = <TIMEOUT>; \
             bindings = <BINDINGS>; \
@@ -50,8 +50,6 @@
         // Base layer
         COMBO(fix_short_u, &kp Y, 4 5 15, 200)
         COMBO(fix_short_k, &kp H, 14 5 15, 200)
-        COMBO(combo_test, &kp T, 0 1, 60)
-        COMBO(combo_test2, &kp X, 2 3, 1000)
 
 
         // COMBO(colon, &kp COLON, 7 8, 60)
