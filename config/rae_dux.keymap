@@ -102,13 +102,13 @@
             bindings = <&mo>, <&kp>;
         };
 
-        leader_r_top: key_press {
+        leader_r_top: leader_r_top_key_press {
             compatible = "zmk,behavior-key-press";
             label = "LEADER_R_TOP";
             #binding-cells = <1>;
         };
 
-        leader_r_home: key_press {
+        leader_r_home: leader_r_home_key_press {
             compatible = "zmk,behavior-key-press";
             label = "LEADER_R_HOME";
             #binding-cells = <1>;
