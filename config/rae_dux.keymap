@@ -23,6 +23,12 @@
 #define NUM_L   2
 #define NAV_L   3
 
+#define CUT   LC(X)
+#define COPY  LC(C)
+#define PASTE LC(V)
+
+#define CA(KEY) LC(LA(KEY))
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -116,14 +122,14 @@
             >;
         };
         
-        sym_layer {
-            bindings = <
-                &kp GRAVE   &kp LT        &kp GT        &kp LBRC           &kp RBRC           &trans              &kp DOT          &kp LBRC            &kp RBRC      &kp PRCNT
-                &kp EXCL    &kp MINUS     &kp PLUS      &kp EQUAL          &kp PIPE           &trans              &kp COLON        &kp LPAR            &kp RPAR      &kp DQT
-                &kp CARET   &kp FSLH      &kp STAR      &kp BSLH           &kp TILDE          &kp HASH            &kp DLLR         &kp SQT             &kp AT        &kp QMARK
-                /*&         &*/           &trans        &trans             &trans             &trans              &trans           &trans              /*&             &*/
-            >;
-        };
+		sym_layer {
+			bindings = <
+                   &kp APOS     &kp LT        &kp GT        &kp DQT            &kp AMPS           &trans              &kp DLLR         &kp LBRC                 &kp RBRC      &kp PRCNT
+                   &kp EXCL     &kp MINUS     &kp PLUS      &kp EQUAL          &kp PIPE           &trans              &kp HASH         &kp LPAR                 &kp RPAR      &kp AT
+                   &kp CARET    &kp FSLH      &kp STAR      &kp BSLH           &kp TILDE          &kp COLON           &kp UNDER        &kp LBKT                 &kp RBKT      &kp QMARK
+				 /*&            &*/           &trans        &trans             &trans             &trans              &trans           &trans                 /*&             &*/
+			>;
+		};
 
 		num_layer {
 			bindings = <
@@ -136,10 +142,10 @@
 
 		nav_layer {
 			bindings = <
-                   &trans       &trans        &trans        &trans             &trans             &trans              &trans           &trans                   &trans          &trans
-                   &sk LALT     &sk LGUI      &sk LSHFT     &sk LCTRL          &trans             &trans              &kp LEFT         &kp DOWN                 &kp UP          &kp RIGHT
-                   &trans       &trans        &trans        &trans             &trans             &trans              &kp HOME         &kp PAGE_UP              &kp PAGE_DOWN   &kp END
-				 /*&            &*/           &trans    &trans         &trans         &bt BT_PRV          &bt BT_NXT       &bt BT_CLR             /*&             &*/
+                   &trans       &trans        &trans        &kp CA(T)          &trans             &trans              &kp CA(T)        &trans                &trans             &trans
+                   &sk LALT     &sk LGUI      &sk LSHFT     &sk LCTRL          &trans             &trans              &kp LEFT         &kp DOWN              &kp UP             &kp RIGHT
+                   &trans       &trans        &trans        &trans             &trans             &trans              &kp HOME         &kp PAGE_UP           &kp PAGE_DOWN      &kp END
+				   /*&          &*/           &trans        &trans             &trans             &bt BT_PRV          &bt BT_NXT       &bt BT_CLR            /*&                &*/
 			>;
 		};
 	};
