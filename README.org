@@ -18,7 +18,7 @@ Endgame wireless split ergo keeb with low-profile switches and keycaps
  * |------+------+------+------+------|                |------+------+------+------+------|
  * |  Z   |  X   |  C   |  V   |  B   |                |  N   |  M   |  ,   |  .   |  /   |
  * `------+------+------+------+------+------.  ,------+------+------+------+------+------|
- *                      | NAV  | SYM_L     |      |  |      |      |      |
+ *                      |NAV_L |SYM_L |NUM_L |  |NUM_L |SYM_L |NAV_L |
  *                      |T_ESC |T_SPC |T_TAB |  |T_BSPC|T_ENT |T_DEL |
  *                      `--------------------'  `--------------------'
 
