@@ -23,10 +23,6 @@
 #define NUM_L   2
 #define NAV_L   3
 
-#define CUT   LC(X)
-#define COPY  LC(C)
-#define PASTE LC(V)
-
 #define CA(KEY) LC(LA(KEY))
 
 / {
