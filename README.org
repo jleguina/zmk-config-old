@@ -14,11 +14,11 @@ Endgame wireless split ergo keeb with low-profile switches and keycaps
 /* ,----------------------------------.                ,----------------------------------.
  * |  Q   |  W   |  E   |  R   |  T   |                |  Y   |  U   |  I   |  O   |  P   |
  * |------+------+------+------+------|                |------+------+------+------+------|
- * |GUI_A |ALT_S |SHFT_D|CTRL_F|  G   |                |  H   |CTRL_J|SHFT_K|ALT_L |GUI_; |
+ * |CTRL_A|SHFT_S| ALT_D|GUI_F |  G   |                |  H   | GUI_J|ALT_K |SHFT_L |CTRL_;|
  * |------+------+------+------+------|                |------+------+------+------+------|
  * |  Z   |  X   |  C   |  V   |  B   |                |  N   |  M   |  ,   |  .   |  /   |
  * `------+------+------+------+------+------.  ,------+------+------+------+------+------|
- *                      |NAV_L |SYM_L |NUM_L |  |NUM_L |SYM_L |NAV_L |
+ *                      |NUM_L |SYM_L |NAV_L |  |NAV_L |SYM_L |NUM_L |
  *                      |T_ESC |T_SPC |T_TAB |  |T_BSPC|T_ENT |T_DEL |
  *                      `--------------------'  `--------------------'
 
